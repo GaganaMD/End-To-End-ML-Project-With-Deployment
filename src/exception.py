@@ -1,6 +1,7 @@
 # For custom exception handeling in python
 
 import sys
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     # Extracting detailed information about the error
